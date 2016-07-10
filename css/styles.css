@@ -1,0 +1,123 @@
+/*google web fonts
+---------------------------------
+font-family: 'Pacifico', cursive;
+---------------------------------
+*/
+#content{
+	width:1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	/*background: yellow;*/
+}
+/*	ETIQUETAS*/
+body{
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	color: blue;
+	font-family: 'Pacifico', cursive;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+h2{
+	color: blue;
+	font-family: 'Pacifico', cursive;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+}
+h3{
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+header{
+	font-color:blue;
+	width: 1000px;
+	height: 120px;
+	background:rgba(255,255,255,3,5);
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background: #99a9b3;
+	border-radius: 10px;
+}
+ul{
+	margin: auto;
+	padding: 4px;
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: red;
+	margin: 3px;
+	border-radius: 10px;
+	/*Sombra para los botones inset: sombra interna y outset sombra externa*/
+	box-shadow: 0 0 10px black inset;
+}
+section{
+	width:700px;
+	background: white;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+aside{
+	width: 280px;
+	background: orange;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+footer{
+	width:1000px;
+	height:70px;
+	background: maroon;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	/*Para evitar espacio en blanco debajo, */
+	margin-bottom: 20px;
+}
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+/*CLASES*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{ color: white; text-decoration: none;}
+.menu:visited{ color: white; text-decoration: none;}
+.menu:hover{ color: white; text-decoration: none;text-shadow:0 0 15px blue;}
+.menu:active{ color: white; text-decoration: none;}
+/*css para link de enlace a Oficina de cultura y turismo*/
+.menu1:link{ color: green; text-decoration: none;}
+.menu1:visited{ color: green; text-decoration: none;}
+/*Estilos Aside solo son de prueba no son obligatorios*/
+.menu2{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: red;
+	margin: 3px;
+	border-radius: 10px;
+	/*Sombra para los botones inset: sombra interna y outset sombra externa
+	box-shadow: 0 0 5px black inset;*/
+}
+
+/*PSEUDO CLASES*/
